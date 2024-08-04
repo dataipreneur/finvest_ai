@@ -29,7 +29,7 @@ if "messages" not in st.session_state.keys():  # Initialize the chat messages hi
 
 
 if "react_agent" not in st.session_state.keys():  # Initialize the chat engine
-    st.session_state.react_agent = financial_react_agent
+    st.session_state.react_agent = ReActAgent
 
 if prompt := st.chat_input("Your question"):
     st.session_state.messages.append({"role": "user", "content": prompt})
