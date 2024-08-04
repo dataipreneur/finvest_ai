@@ -1,5 +1,5 @@
 import streamlit as st
-from agent import financial_react_agent
+from agent import ReActAgent
 
 AGENT_NAME = "Finvest AI"
 
